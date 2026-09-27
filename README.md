@@ -14,7 +14,6 @@
 
 🎓 BSIT student at **Polytechnic University of the Philippines (PUP)**  
 📊 Exploring **Data Science & Machine Learning** — classification, association rule mining, regression  
-☕ Building desktop applications with **Java** — OOP, Swing, JDBC  
 🏛️ Currently interning at a congressional office
 
 ---
@@ -23,8 +22,6 @@
 
 🌐 Developing a web platform for a **congressional office** — internship project  
 🌊 Flood-related data research — DPWH flood control analysis, mobile flood detection app  
-🎵 Audio & streaming data — OPM chart representation analysis, AI-generated music detection  
-⛓️ Stellar blockchain hackathon project — **team lead**
 
 ---
 
