@@ -16,11 +16,6 @@
 
 - 🎓 BSIT student at **Polytechnic University of the Philippines (PUP)**
 - 💡 Exploring **Data Science & Machine Learning** alongside coursework in classification, association rule mining, and regression analysis
-- ☕ Building desktop apps with **Java (OOP, Swing, JDBC)** and relational databases
-- 🌊 Currently working on flood-related data projects (DPWH flood control analysis, flood detection mobile app)
-- 🎵 Also dabbling in music/audio data — analyzing OPM representation on streaming charts and AI-generated music detection
-- ⛓️ Team lead on a Stellar blockchain hackathon project
-- 🌱 Learning toward a data science summer internship
 
 ---
 
