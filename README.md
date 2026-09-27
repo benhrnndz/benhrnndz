@@ -34,20 +34,6 @@
 
 ---
 
-### 📌 Featured Projects
-
-| Project | Description |
-|---|---|
-| 🏠 [VisaAppPortal](https://github.com/benhrnndz/VisaAppPortal) | Java Swing + SQLite desktop app for visa application management (OOP & database coursework) |
-| 🌊 [dpwh_projects](https://github.com/benhrnndz/dpwh_projects) | Analysis of DPWH flood control data vs. flood severity in Metro Manila |
-| 🎓 [crmg](https://github.com/benhrnndz/crmg) | Web project built for CHED TDP Scholarship qualifiers |
-| 🧮 [data-structures](https://github.com/benhrnndz/data-structures) | Fundamentals practice — core data structures & algorithms |
-| 🗄️ [dba-lang](https://github.com/benhrnndz/dba-lang) | Database administration / language coursework project |
-
-> Other ongoing work not yet in a public repo: AI-generated music detection under MP3 compression, OPM chart representation analysis, Apriori association-rule flood mining, and a Flood Detect Waze mobile app.
-
----
-
 ### 📊 GitHub Stats
 
 <p align="center">
