@@ -36,6 +36,8 @@
   <img src="https://img.shields.io/badge/SQL-1E3A8A?style=for-the-badge&logo=mysql&logoColor=FFD700" />
   <img src="https://img.shields.io/badge/SQLite-1E3A8A?style=for-the-badge&logo=sqlite&logoColor=FFD700" />
   <img src="https://img.shields.io/badge/HTML-1E3A8A?style=for-the-badge&logo=html5&logoColor=FFD700" />
+  <img src="https://img.shields.io/badge/CSS-1E3A8A?style=for-the-badge&logo=css3&logoColor=FFD700" />
+  <img src="https://img.shields.io/badge/JavaScript-1E3A8A?style=for-the-badge&logo=javascript&logoColor=FFD700" />
   <img src="https://img.shields.io/badge/Pandas-1E3A8A?style=for-the-badge&logo=pandas&logoColor=FFD700" />
   <img src="https://img.shields.io/badge/scikit--learn-1E3A8A?style=for-the-badge&logo=scikitlearn&logoColor=FFD700" />
   <img src="https://img.shields.io/badge/Git-1E3A8A?style=for-the-badge&logo=git&logoColor=FFD700" />
