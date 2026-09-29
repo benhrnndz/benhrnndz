@@ -43,12 +43,6 @@
 ---
 
 ## GitHub Stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=benhrnndz&show_icons=true&bg_color=0f172a&title_color=FFD700&text_color=e2e8f0&icon_color=FFD700&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=benhrnndz&layout=compact&bg_color=0f172a&title_color=FFD700&text_color=e2e8f0&hide_border=true" />
-</div>
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=benhrnndz&background=0f172a&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideLabels=FFD700&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=94a3b8&hide_border=true" alt="GitHub Streak" />
 </p>
