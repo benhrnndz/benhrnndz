@@ -1,0 +1,169 @@
+<svg viewBox="0 0 850 456" width="850" height="456" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="60%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#131F3D"/>
+    </linearGradient>
+    <linearGradient id="goldBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="55%" stop-color="#E2B46D"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="portraitGlow" cx="24%" cy="52%" r="32%">
+      <stop offset="0%" stop-color="#E2B46D" stop-opacity="0.11"/>
+      <stop offset="60%" stop-color="#1E3A8A" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .ascii {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+      }
+      .mono {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+      }
+      .title {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 11.5px;
+        fill: #94A3B8;
+      }
+      .prompt {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 13.5px;
+        font-weight: 700;
+      }
+      .key {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 12px;
+        font-weight: 700;
+        fill: #FFD700;
+      }
+      .sep {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 12px;
+        fill: #475569;
+      }
+      .val {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 12px;
+        fill: #E2E8F0;
+      }
+      .muted {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 11px;
+        fill: #94A3B8;
+      }
+      .accent {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 12px;
+        font-weight: 600;
+        fill: #E2B46D;
+      }
+      .section-hd {
+        font-family: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+        fill: #64748B;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Terminal Card -->
+  <rect x="0.75" y="0.75" width="848.5" height="454.5" rx="14" fill="url(#termBg)" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="1" y="1" width="848" height="454" rx="14" fill="url(#portraitGlow)"/>
+
+  <!-- Window Title Bar -->
+  <path d="M 1 15 Q 1 1 15 1 L 835 1 Q 849 1 849 15 L 849 38 L 1 38 Z" fill="#080D1A" opacity="0.9"/>
+  <line x1="1" y1="38" x2="849" y2="38" stroke="#1E293B" stroke-width="1"/>
+  <circle cx="22" cy="19.5" r="5.5" fill="#EF4444" opacity="0.85"/>
+  <circle cx="40" cy="19.5" r="5.5" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="58" cy="19.5" r="5.5" fill="#10B981" opacity="0.85"/>
+  <text x="425" y="23.5" text-anchor="middle" class="title">benhrnndz@pup-bsit — neofetch --portrait</text>
+  <text x="830" y="23.5" text-anchor="end" class="mono" font-size="10.5" fill="#475569">zsh · UTF-8</text>
+
+  <!-- Vertical divider -->
+  <line x1="392" y1="54" x2="392" y2="438" stroke="#1E293B" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- Left Pane: ASCII Portrait -->
+  <text x="29" y="74.9" xml:space="preserve" class="ascii"><tspan fill="#0B1120">              </tspan><tspan fill="#64748B">,,,,:;;:,,,..                             </tspan></text>
+  <text x="29" y="83.8" xml:space="preserve" class="ascii"><tspan fill="#0B1120">           </tspan><tspan fill="#64748B">.:</tspan><tspan fill="#CBD5E1">;</tspan><tspan fill="#64748B">;:,:,.,,,,,...,:.                         </tspan></text>
+  <text x="29" y="92.7" xml:space="preserve" class="ascii"><tspan fill="#0B1120">          </tspan><tspan fill="#64748B">:</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">,,,,,:.,,.,,,,...,,.                        </tspan></text>
+  <text x="29" y="101.6" xml:space="preserve" class="ascii"><tspan fill="#0B1120">         </tspan><tspan fill="#64748B">::..  .,...... .:;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;:...                       </tspan></text>
+  <text x="29" y="110.5" xml:space="preserve" class="ascii"><tspan fill="#0B1120">        </tspan><tspan fill="#64748B">;, . .. .....,</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;.:</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#64748B">;</tspan><tspan fill="#E2B46D">=+</tspan><tspan fill="#64748B">:                        </tspan></text>
+  <text x="29" y="119.4" xml:space="preserve" class="ascii"><tspan fill="#0B1120">        </tspan><tspan fill="#CBD5E1">- </tspan><tspan fill="#64748B">.    .  ..;</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#F8FAFC">***</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">.;;</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#64748B">:..                      </tspan></text>
+  <text x="29" y="128.3" xml:space="preserve" class="ascii"><tspan fill="#0B1120">       </tspan><tspan fill="#64748B">.,         .;</tspan><tspan fill="#CBD5E1">+</tspan><tspan fill="#F8FAFC">**##*</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#CBD5E1">=</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#CBD5E1">--                     </tspan></text>
+  <text x="29" y="137.2" xml:space="preserve" class="ascii"><tspan fill="#0B1120">        </tspan><tspan fill="#64748B">:;     ;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;:</tspan><tspan fill="#CBD5E1">=</tspan><tspan fill="#E2B46D">=+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#F8FAFC">##*</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">-                     </tspan></text>
+  <text x="29" y="146.1" xml:space="preserve" class="ascii"><tspan fill="#0B1120">         </tspan><tspan fill="#64748B">::    </tspan><tspan fill="#CBD5E1">=</tspan><tspan fill="#F8FAFC">#</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#CBD5E1">=</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#CBD5E1">--=</tspan><tspan fill="#E2B46D">=+</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#F8FAFC">***</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">+==</tspan><tspan fill="#64748B">;                      </tspan></text>
+  <text x="29" y="155.0" xml:space="preserve" class="ascii"><tspan fill="#0B1120">          </tspan><tspan fill="#64748B">::    </tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">++=</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#E2B46D">=++</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#F8FAFC">***</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#CBD5E1">-                      </tspan></text>
+  <text x="29" y="163.9" xml:space="preserve" class="ascii"><tspan fill="#0B1120">           </tspan><tspan fill="#64748B">,:,  .;;;;;</tspan><tspan fill="#CBD5E1">-=</tspan><tspan fill="#E2B46D">=+++</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#F8FAFC">*#*</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#64748B">.                     </tspan></text>
+  <text x="29" y="172.8" xml:space="preserve" class="ascii"><tspan fill="#0B1120">             </tspan><tspan fill="#64748B">,:,.:;</tspan><tspan fill="#CBD5E1">------=---</tspan><tspan fill="#E2B46D">==</tspan><tspan fill="#CBD5E1">=-</tspan><tspan fill="#64748B">;                      </tspan></text>
+  <text x="29" y="181.7" xml:space="preserve" class="ascii"><tspan fill="#0B1120">               </tspan><tspan fill="#64748B">,;;;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">=======</tspan><tspan fill="#CBD5E1">=</tspan><tspan fill="#64748B">;,.        .,,.            </tspan></text>
+  <text x="29" y="190.6" xml:space="preserve" class="ascii"><tspan fill="#0B1120">              </tspan><tspan fill="#64748B">:</tspan><tspan fill="#CBD5E1">=++**+</tspan><tspan fill="#E2B46D">++==+++</tspan><tspan fill="#CBD5E1">-          </tspan><tspan fill="#64748B">.,,;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">,           </tspan></text>
+  <text x="29" y="199.5" xml:space="preserve" class="ascii"><tspan fill="#0B1120">           </tspan><tspan fill="#64748B">,;</tspan><tspan fill="#CBD5E1">=</tspan><tspan fill="#F8FAFC">#%###%%%%%#*</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#CBD5E1">+</tspan><tspan fill="#64748B">:           :</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">*++</tspan><tspan fill="#CBD5E1">;         </tspan></text>
+  <text x="29" y="208.4" xml:space="preserve" class="ascii"><tspan fill="#0B1120">      </tspan><tspan fill="#64748B">,</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">*#%@@%%%%%#</tspan><tspan fill="#CBD5E1">#</tspan><tspan fill="#F8FAFC">%%%@@%</tspan><tspan fill="#CBD5E1">-=+</tspan><tspan fill="#64748B">,         :</tspan><tspan fill="#FFD700">****###</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">,      </tspan></text>
+  <text x="29" y="217.3" xml:space="preserve" class="ascii"><tspan fill="#0B1120">    </tspan><tspan fill="#64748B">,</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">###%@%%%%%%#####</tspan><tspan fill="#F8FAFC">%%%%</tspan><tspan fill="#CBD5E1">+</tspan><tspan fill="#64748B">. :</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">:.    </tspan><tspan fill="#E2B46D">-=</tspan><tspan fill="#FFD700">*#*+</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#E2B46D">=     </tspan></text>
+  <text x="29" y="226.2" xml:space="preserve" class="ascii"><tspan fill="#0B1120">   </tspan><tspan fill="#64748B">,</tspan><tspan fill="#E2B46D">+++++</tspan><tspan fill="#FFD700">+*##%%%##%#%###</tspan><tspan fill="#F8FAFC">%#</tspan><tspan fill="#CBD5E1">#+</tspan><tspan fill="#64748B">,.;</tspan><tspan fill="#FFD700">*##%#</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">..;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">===+</tspan><tspan fill="#FFD700">**##</tspan><tspan fill="#E2B46D">=    </tspan></text>
+  <text x="29" y="235.1" xml:space="preserve" class="ascii"><tspan fill="#0B1120">  </tspan><tspan fill="#64748B">.</tspan><tspan fill="#E2B46D">=-=++</tspan><tspan fill="#FFD700">********####**##*</tspan><tspan fill="#CBD5E1">#</tspan><tspan fill="#F8FAFC">#</tspan><tspan fill="#CBD5E1">*</tspan><tspan fill="#64748B">:,.</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">**####</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#64748B">;;;</tspan><tspan fill="#E2B46D">-=</tspan><tspan fill="#64748B">,</tspan><tspan fill="#CBD5E1">---</tspan><tspan fill="#E2B46D">-+</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#CBD5E1">-   </tspan></text>
+  <text x="29" y="244.0" xml:space="preserve" class="ascii"><tspan fill="#0B1120">  </tspan><tspan fill="#64748B">;</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">-+++</tspan><tspan fill="#FFD700">+****</tspan><tspan fill="#E2B46D">++=</tspan><tspan fill="#FFD700">####**####</tspan><tspan fill="#F8FAFC">#</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">..,</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#FFD700">##*#</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#64748B">;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">==</tspan><tspan fill="#64748B">. .</tspan><tspan fill="#E2B46D">-+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">+=</tspan><tspan fill="#64748B">;  </tspan></text>
+  <text x="29" y="252.9" xml:space="preserve" class="ascii"><tspan fill="#0B1120">  </tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">--</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">-++</tspan><tspan fill="#FFD700">****#**</tspan><tspan fill="#E2B46D">+=</tspan><tspan fill="#FFD700">#**###**##</tspan><tspan fill="#CBD5E1">*</tspan><tspan fill="#64748B">,,.</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">+=</tspan><tspan fill="#FFD700">**#*</tspan><tspan fill="#E2B46D">+-==</tspan><tspan fill="#64748B">:. .:</tspan><tspan fill="#E2B46D">=++</tspan><tspan fill="#CBD5E1">--  </tspan></text>
+  <text x="29" y="261.8" xml:space="preserve" class="ascii"><tspan fill="#0B1120">  </tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#E2B46D">-</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">+*#####</tspan><tspan fill="#E2B46D">+=</tspan><tspan fill="#FFD700">#****#**##</tspan><tspan fill="#64748B">:..</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">+++</tspan><tspan fill="#FFD700">*###**</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">.,:,. ,:;</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#64748B">;  </tspan></text>
+  <text x="29" y="270.7" xml:space="preserve" class="ascii"><tspan fill="#0B1120">  </tspan><tspan fill="#64748B">,;</tspan><tspan fill="#CBD5E1">---</tspan><tspan fill="#64748B">;</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">*####+</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">*#***+</tspan><tspan fill="#64748B">, ;</tspan><tspan fill="#FFD700">**+##*</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">+*+</tspan><tspan fill="#64748B">. ,::..,</tspan><tspan fill="#CBD5E1">=</tspan><tspan fill="#64748B">;   </tspan></text>
+  <text x="29" y="279.6" xml:space="preserve" class="ascii"><tspan fill="#0B1120">  </tspan><tspan fill="#64748B">,</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;;</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#FFD700">*##*+**##****</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">*#*</tspan><tspan fill="#64748B">;</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#64748B">;</tspan><tspan fill="#FFD700">*%#*##*+</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#64748B">;,::::.:    </tspan></text>
+  <text x="29" y="288.5" xml:space="preserve" class="ascii"><tspan fill="#0B1120">  </tspan><tspan fill="#64748B">;;::;;;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#FFD700">+*#*******#*</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">+-=</tspan><tspan fill="#FFD700">%##**#***</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">**+</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#64748B">;.;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">,..   </tspan></text>
+  <text x="29" y="297.4" xml:space="preserve" class="ascii"><tspan fill="#0B1120">  </tspan><tspan fill="#64748B">,:::::::;</tspan><tspan fill="#E2B46D">==++</tspan><tspan fill="#FFD700">**###***</tspan><tspan fill="#E2B46D">+=</tspan><tspan fill="#FFD700">****</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#FFD700">****</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#E2B46D">+=</tspan><tspan fill="#64748B">;:,..,,..   </tspan></text>
+  <text x="29" y="306.3" xml:space="preserve" class="ascii"><tspan fill="#0B1120">   </tspan><tspan fill="#64748B">.:::::::;</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#FFD700">**###*</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">*+</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#FFD700">*%###</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">**+++</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">+-</tspan><tspan fill="#64748B">;;;;;</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#64748B">:;.   </tspan></text>
+  <text x="29" y="315.2" xml:space="preserve" class="ascii"><tspan fill="#0B1120">    </tspan><tspan fill="#64748B">:,,::::::;</tspan><tspan fill="#E2B46D">-=+</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">**####*#</tspan><tspan fill="#E2B46D">+=+</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">+++</tspan><tspan fill="#FFD700">++</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">=-=</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;;;:;</tspan><tspan fill="#CBD5E1">=-</tspan><tspan fill="#64748B">:</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#64748B">:   </tspan></text>
+  <text x="29" y="324.1" xml:space="preserve" class="ascii"><tspan fill="#0B1120">    </tspan><tspan fill="#64748B">:;::,,::::;;;</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">=+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">*****</tspan><tspan fill="#E2B46D">=+++++=+=+=--</tspan><tspan fill="#64748B">;;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">--    </tspan></text>
+  <text x="29" y="333.0" xml:space="preserve" class="ascii"><tspan fill="#0B1120">    </tspan><tspan fill="#64748B">.;:;::,,:::::</tspan><tspan fill="#E2B46D">-</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">-=</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">=+</tspan><tspan fill="#FFD700">+*+</tspan><tspan fill="#E2B46D">++=++===+</tspan><tspan fill="#FFD700">#</tspan><tspan fill="#E2B46D">+++</tspan><tspan fill="#64748B">;;;;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">,</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">:    </tspan></text>
+  <text x="29" y="341.9" xml:space="preserve" class="ascii"><tspan fill="#0B1120">     </tspan><tspan fill="#64748B">:;;;:::,,:::;</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">-</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">++++++=+=====+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">=++</tspan><tspan fill="#64748B">::</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">---</tspan><tspan fill="#64748B">;:</tspan><tspan fill="#CBD5E1">-     </tspan></text>
+  <text x="29" y="350.8" xml:space="preserve" class="ascii"><tspan fill="#0B1120">     </tspan><tspan fill="#64748B">.;::;;;:,,,::</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">=++=++==++++++=</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">=++</tspan><tspan fill="#64748B">;:;</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#64748B">;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#64748B">;     </tspan></text>
+  <text x="29" y="359.7" xml:space="preserve" class="ascii"><tspan fill="#0B1120">     </tspan><tspan fill="#64748B">.::;;:;;;::,,,:;;</tspan><tspan fill="#E2B46D">====+++++++++=+==+</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">-</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#CBD5E1">-      </tspan></text>
+  <text x="29" y="368.6" xml:space="preserve" class="ascii"><tspan fill="#0B1120">      </tspan><tspan fill="#64748B">,;;:</tspan><tspan fill="#CBD5E1">------</tspan><tspan fill="#64748B">;;;:;</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#E2B46D">===+++++++=++</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">=++=</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">---</tspan><tspan fill="#E2B46D">=</tspan><tspan fill="#64748B">;       </tspan></text>
+  <text x="29" y="377.5" xml:space="preserve" class="ascii"><tspan fill="#0B1120">      </tspan><tspan fill="#64748B">.:;</tspan><tspan fill="#CBD5E1">-;</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">----==</tspan><tspan fill="#E2B46D">========+++++</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">++++==+++</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">---</tspan><tspan fill="#64748B">;,        </tspan></text>
+  <text x="29" y="386.4" xml:space="preserve" class="ascii"><tspan fill="#0B1120">      </tspan><tspan fill="#64748B">.;;;;</tspan><tspan fill="#CBD5E1">---==</tspan><tspan fill="#E2B46D">=========+++++</tspan><tspan fill="#FFD700">**+*</tspan><tspan fill="#E2B46D">+===+++</tspan><tspan fill="#64748B">, ..           </tspan></text>
+  <text x="29" y="395.3" xml:space="preserve" class="ascii"><tspan fill="#0B1120">      </tspan><tspan fill="#64748B">,</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;</tspan><tspan fill="#CBD5E1">---</tspan><tspan fill="#E2B46D">==</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">======+++++</tspan><tspan fill="#FFD700">**+++**+</tspan><tspan fill="#E2B46D">++==++</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#CBD5E1">-              </tspan></text>
+  <text x="29" y="404.2" xml:space="preserve" class="ascii"><tspan fill="#0B1120">      </tspan><tspan fill="#64748B">:</tspan><tspan fill="#CBD5E1">--</tspan><tspan fill="#E2B46D">==--====++++++++</tspan><tspan fill="#FFD700">**</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">+***++</tspan><tspan fill="#E2B46D">++=</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#CBD5E1">=              </tspan></text>
+  <text x="29" y="413.1" xml:space="preserve" class="ascii"><tspan fill="#0B1120">      </tspan><tspan fill="#64748B">:;</tspan><tspan fill="#CBD5E1">---</tspan><tspan fill="#E2B46D">====+++++++++</tspan><tspan fill="#FFD700">*+++*****</tspan><tspan fill="#E2B46D">++++</tspan><tspan fill="#64748B">,</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">+</tspan><tspan fill="#E2B46D">++</tspan><tspan fill="#64748B">.             </tspan></text>
+  <text x="29" y="422.0" xml:space="preserve" class="ascii"><tspan fill="#0B1120">      </tspan><tspan fill="#64748B">:;</tspan><tspan fill="#CBD5E1">-</tspan><tspan fill="#64748B">;;</tspan><tspan fill="#E2B46D">=++++++</tspan><tspan fill="#FFD700">+*+</tspan><tspan fill="#E2B46D">++++</tspan><tspan fill="#FFD700">+++*+**+</tspan><tspan fill="#E2B46D">++++ -</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#E2B46D">+</tspan><tspan fill="#FFD700">*</tspan><tspan fill="#CBD5E1">-             </tspan></text>
+
+  <!-- Subtle corner viewfinder ticks around portrait -->
+  <path d="M 18 64 L 18 54 L 28 54" fill="none" stroke="#E2B46D" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 374 64 L 374 54 L 364 54" fill="none" stroke="#E2B46D" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 18 428 L 18 438 L 28 438" fill="none" stroke="#E2B46D" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 374 428 L 374 438 L 364 438" fill="none" stroke="#E2B46D" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Right Pane: Neofetch Profile Info -->
+  <text x="418" y="92" class="prompt"><tspan fill="#FFD700">benhrnndz</tspan><tspan fill="#64748B">@</tspan><tspan fill="#38BDF8">pup-bsit</tspan></text>
+  <rect x="418" y="104" width="402" height="1.5" rx="0.75" fill="url(#goldBar)"/>
+
+  <text x="418" y="132" class="section-hd">IDENTITY</text>
+  <text x="418" y="156"><tspan class="key">Name     </tspan><tspan class="sep">│ </tspan><tspan class="val">Harold Benedict Hernandez</tspan></text>
+  <text x="418" y="180"><tspan class="key">School   </tspan><tspan class="sep">│ </tspan><tspan class="val">PUP · BS Information Technology</tspan></text>
+  <text x="418" y="204"><tspan class="key">Current  </tspan><tspan class="sep">│ </tspan><tspan class="val">Congressional Office Intern</tspan></text>
+  <text x="418" y="228"><tspan class="key">Tracks   </tspan><tspan class="sep">│ </tspan><tspan class="val">Data Science &amp; ML · Full-Stack</tspan></text>
+  <text x="418" y="252"><tspan class="key">Creative </tspan><tspan class="sep">│ </tspan><tspan class="val">Video Editor &amp; Filmmaker (3 yrs)</tspan></text>
+
+  <text x="418" y="292" class="section-hd">RECENTLY SHIPPED &amp; BUILDING</text>
+  <text x="418" y="316"><tspan class="key">Web      </tspan><tspan class="sep">│ </tspan><tspan class="val">Next.js · React · Vite · PHP</tspan></text>
+  <text x="418" y="340"><tspan class="key">Mobile   </tspan><tspan class="sep">│ </tspan><tspan class="val">Syllo Student LMS (Flutter)</tspan></text>
+
+  <line x1="418" y1="370" x2="820" y2="370" stroke="#1E293B" stroke-width="1"/>
+  <circle cx="424" cy="394" r="4" fill="#10B981"/>
+  <text x="436" y="398" class="muted">Open to internships, collaborations &amp; freelance edits</text>
+
+  <!-- Neofetch color swatches -->
+  <g transform="translate(418, 416)">
+    <rect x="0"   y="0" width="24" height="12" rx="3" fill="#1E3A8A"/>
+    <rect x="30"  y="0" width="24" height="12" rx="3" fill="#2563EB"/>
+    <rect x="60"  y="0" width="24" height="12" rx="3" fill="#38BDF8"/>
+    <rect x="90"  y="0" width="24" height="12" rx="3" fill="#10B981"/>
+    <rect x="120" y="0" width="24" height="12" rx="3" fill="#E2B46D"/>
+    <rect x="150" y="0" width="24" height="12" rx="3" fill="#FFD700"/>
+    <rect x="180" y="0" width="24" height="12" rx="3" fill="#F8FAFC"/>
+  </g>
+  <text x="820" y="426" text-anchor="end" class="mono" font-size="10.5" fill="#475569">~/benhrnndz</text>
+</svg>
