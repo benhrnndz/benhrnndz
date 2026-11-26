@@ -1,26 +1,70 @@
-<svg viewBox="0 0 850 200" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 850 210" width="850" height="210" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E3A8A"/>
-      <stop offset="100%" stop-color="#172554"/>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="52%" stop-color="#14234B"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
     </linearGradient>
+    <radialGradient id="heroGlowL" cx="15%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="heroGlowR" cx="88%" cy="85%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FFD700" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#E2B46D" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#E2B46D" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="subtleGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.045"/>
+    </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect width="850" height="200" fill="url(#bg)"/>
+  <!-- Card Background -->
+  <rect x="0.75" y="0.75" width="848.5" height="208.5" rx="14" fill="url(#heroBg)" stroke="#1E3A8A" stroke-width="1.5"/>
+  <rect x="1" y="1" width="848" height="208" rx="14" fill="url(#subtleGrid)"/>
+  <rect x="1" y="1" width="848" height="208" rx="14" fill="url(#heroGlowL)"/>
+  <rect x="1" y="1" width="848" height="208" rx="14" fill="url(#heroGlowR)"/>
 
-  <!-- Bottom accent line -->
-  <rect x="0" y="196" width="850" height="4" fill="#FFD700"/>
+  <!-- Corner frame brackets -->
+  <path d="M 24 38 L 24 22 L 40 22" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0.55"/>
+  <path d="M 826 38 L 826 22 L 810 22" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0.55"/>
+  <path d="M 24 172 L 24 188 L 40 188" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0.55"/>
+  <path d="M 826 172 L 826 188 L 810 188" fill="none" stroke="#FFD700" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- Top-left BH Timeline Playhead Emblem -->
+  <g transform="translate(36, 32) scale(0.42)">
+    <rect width="72" height="72" rx="16" fill="#0B1120" fill-opacity="0.65" stroke="#FFD700" stroke-opacity="0.35" stroke-width="2.5"/>
+    <!-- B -->
+    <path d="M 18 18 L 18 54" stroke="#F8FAFC" stroke-width="4.5" stroke-linecap="square"/>
+    <path d="M 18 20 L 29 20 C 35 20 35 32 29 32 L 18 32" fill="none" stroke="#F8FAFC" stroke-width="4.2"/>
+    <path d="M 18 39 L 30 39 C 37 39 37 52 30 52 L 18 52" fill="none" stroke="#F8FAFC" stroke-width="4.2"/>
+    <!-- Playhead spine / H -->
+    <polygon points="39,12 47,12 43,19" fill="#FFD700"/>
+    <line x1="43" y1="18" x2="43" y2="56" stroke="#FFD700" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="43" y1="36" x2="56" y2="36" stroke="#F8FAFC" stroke-width="4.2"/>
+    <line x1="56" y1="18" x2="56" y2="54" stroke="#F8FAFC" stroke-width="4.5" stroke-linecap="square"/>
+  </g>
+
+  <!-- Top-right mono tag -->
+  <text x="810" y="52" text-anchor="end" fill="#94A3B8" font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="10.5" letter-spacing="1.8" opacity="0.85">@BENHRNNDZ · PH</text>
 
   <!-- Name -->
-  <text x="425" y="82" text-anchor="middle" fill="#FFFFFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="1">Harold Benedict Hernandez</text>
+  <text x="425" y="88" text-anchor="middle" fill="#FFFFFF" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="0.5">Harold Benedict Hernandez</text>
 
-  <!-- Golden separator -->
-  <rect x="310" y="100" width="230" height="1.5" rx="1" fill="#FFD700" opacity="0.6"/>
+  <!-- Golden gradient divider -->
+  <rect x="235" y="106" width="380" height="1.5" rx="1" fill="url(#goldLine)"/>
 
-  <!-- Tagline -->
-  <text x="425" y="133" text-anchor="middle" fill="#FFD700" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" letter-spacing="3" opacity="0.85">BSIT STUDENT · ASPIRING DATA SCIENTIST / ML DEVELOPER</text>
+  <!-- Role Tagline -->
+  <text x="425" y="136" text-anchor="middle" fill="#FFD700" font-family="ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="600" letter-spacing="2.4">DATA SCIENCE &amp; ML · FULL-STACK &amp; MOBILE · FILMMAKER</text>
 
-  <!-- School -->
-  <text x="425" y="165" text-anchor="middle" fill="#FFFFFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="300" letter-spacing="2" opacity="0.4">POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</text>
+  <!-- School & Subtitle -->
+  <text x="425" y="166" text-anchor="middle" fill="#CBD5E1" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" letter-spacing="2.2" opacity="0.72">BSIT STUDENT · POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</text>
+
+  <!-- Bottom Gold Trim -->
+  <rect x="14" y="205.5" width="822" height="3.5" rx="1.75" fill="url(#goldLine)"/>
 </svg>
